@@ -3,8 +3,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
-import { AutocompleteAutoActiveFirstOptionExample } from './components/autocomplete/autocomplete-auto-active-first-option-example';
 import { MyMaterialModule } from './material.module';
+import { AutocompleteAutoActiveFirstOptionExample } from './components/autocomplete/highlight-first/autocomplete-auto-active-first-option-example';
 
 
 @NgModule({
