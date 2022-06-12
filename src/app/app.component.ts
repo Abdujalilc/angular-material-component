@@ -2,8 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  template: `<autocomplete-auto-active-first-option-example></autocomplete-auto-active-first-option-example>`,
 })
 export class AppComponent {
   title = 'angular-material-component';
