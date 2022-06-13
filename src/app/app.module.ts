@@ -9,11 +9,13 @@ import { AutocompleteDisplayExample } from './components/01_autocomplete/02_disp
 import { AutocompleteFilterExample } from './components/01_autocomplete/03_filter-auto-complete/autocomplete-filter-example';
 import { AutocompleteOptgroupExample } from './components/01_autocomplete/04_autocomplete-optgroup-example/autocomplete-optgroup-example';
 import { AutocompleteOverviewExample } from './components/01_autocomplete/05_autocomplete-overview-example/autocomplete-overview-example';
+import { BadgeOverviewExample } from './components/02_badge/badge-overview-example';
 
 @NgModule({
   declarations: [
     AppComponent,AutocompleteAutoActiveFirstOptionExample,AutocompleteDisplayExample,
-    AutocompleteFilterExample, AutocompleteOptgroupExample,AutocompleteOverviewExample
+    AutocompleteFilterExample, AutocompleteOptgroupExample,AutocompleteOverviewExample,
+    BadgeOverviewExample,
   ],
   imports: [
     BrowserModule,FormsModule,ReactiveFormsModule,MyMaterialModule,
