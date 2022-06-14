@@ -12,7 +12,17 @@ import { Component } from '@angular/core';
   //template:`<button-overview-example></button-overview-example>`
   //template:`<button-toggle-mode-example></button-toggle-mode-example>`
   //template:`<card-media-size-example></card-media-size-example>`
-  template:`<checkbox-overview-example></checkbox-overview-example>`
+  //template:`<checkbox-overview-example></checkbox-overview-example>`
+  //template:`<chips-autocomplete-example></chips-autocomplete-example>`
+  //template:`<chips-avatar-example></chips-avatar-example>`
+  //template:`<chips-drag-drop-example></chips-drag-drop-example>`
+  //template:`<chips-form-control-example></chips-form-control-example>`
+  //template:`<chips-input-example></chips-input-example>`
+  //template:`<chips-overview-example></chips-overview-example>`
+  //template:`<chips-stacked-example></chips-stacked-example>`
+  //template:`<date-range-picker-forms-example></date-range-picker-forms-example>`
+  //template:`<date-range-picker-overview-example></date-range-picker-overview-example>`
+  template:`<datepicker-overview-example></datepicker-overview-example>`
 })
 export class AppComponent {
   title = 'angular-material-component';
