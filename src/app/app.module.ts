@@ -26,6 +26,12 @@ import { ChipsStackedExample } from './components/08_chips/07_chips-stacked-exam
 import { DateRangePickerFormsExample } from './components/09_date-picker/01_date-range-picker-forms-example/date-range-picker-forms-example';
 import { DateRangePickerOverviewExample } from './components/09_date-picker/02_date-range-picker-overview-example/date-range-picker-overview-example';
 import { DatepickerOverviewExample } from './components/09_date-picker/03_datepicker-overview-example/datepicker-overview-example';
+import { DialogAnimationsExample } from './components/10_dialog/01_dialog-animations-example/dialog-animations-example';
+import { DialogContentExample, DialogContentExampleDialog } from './components/10_dialog/02_dialog-content-example/dialog-content-example';
+import { DialogDataExample, DialogDataExampleDialog } from './components/10_dialog/03_dialog-data-example/dialog-data-example';
+import { DialogElementsExample, DialogElementsExampleDialog } from './components/10_dialog/04_dialog-elements-example/dialog-elements-example';
+import { DialogFromMenuExample, DialogFromMenuExampleDialog } from './components/10_dialog/05_dialog-from-menu-example/dialog-from-menu-example';
+import { DialogOverviewExample, DialogOverviewExampleDialog } from './components/10_dialog/06_dialog-overview-example/dialog-overview-example';
 
 @NgModule({
   declarations: [
@@ -35,7 +41,10 @@ import { DatepickerOverviewExample } from './components/09_date-picker/03_datepi
     ButtonToggleModeExample,CardMediaSizeExample,CheckboxOverviewExample,ChipsAutocompleteExample, 
     ChipsAvatarExample,ChipsDragDropExample,ChipsFormControlExample,ChipsInputExample,ChipsOverviewExample,
     ChipsStackedExample,DateRangePickerFormsExample,DateRangePickerOverviewExample,
-    DatepickerOverviewExample,
+    DatepickerOverviewExample,DialogAnimationsExample,DialogContentExample,DialogContentExampleDialog,
+    DialogDataExample,DialogDataExampleDialog,DialogElementsExample,DialogElementsExampleDialog,
+    DialogFromMenuExample,DialogFromMenuExampleDialog,DialogOverviewExample,DialogOverviewExampleDialog,
+    
   ],
   imports: [
     BrowserModule,FormsModule,ReactiveFormsModule,MyMaterialModule,BrowserAnimationsModule

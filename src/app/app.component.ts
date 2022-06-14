@@ -22,7 +22,12 @@ import { Component } from '@angular/core';
   //template:`<chips-stacked-example></chips-stacked-example>`
   //template:`<date-range-picker-forms-example></date-range-picker-forms-example>`
   //template:`<date-range-picker-overview-example></date-range-picker-overview-example>`
-  template:`<datepicker-overview-example></datepicker-overview-example>`
+  //template:`<datepicker-overview-example></datepicker-overview-example>`
+  //template:`<dialog-animations-example></dialog-animations-example>`
+  //template:`<dialog-content-example></dialog-content-example>`
+  //template: `<dialog-data-example></dialog-data-example>`
+  //template:`<dialog-elements-example></dialog-elements-example>`
+  template: `<dialog-overview-example></dialog-overview-example>`
 })
 export class AppComponent {
   title = 'angular-material-component';
