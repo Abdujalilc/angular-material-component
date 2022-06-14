@@ -27,7 +27,8 @@ import { Component } from '@angular/core';
   //template:`<dialog-content-example></dialog-content-example>`
   //template: `<dialog-data-example></dialog-data-example>`
   //template:`<dialog-elements-example></dialog-elements-example>`
-  template: `<dialog-overview-example></dialog-overview-example>`
+  //template: `<dialog-overview-example></dialog-overview-example>`
+  template: `<divider-overview-example></divider-overview-example>`
 })
 export class AppComponent {
   title = 'angular-material-component';

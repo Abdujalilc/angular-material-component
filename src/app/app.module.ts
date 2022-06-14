@@ -32,6 +32,7 @@ import { DialogDataExample, DialogDataExampleDialog } from './components/10_dial
 import { DialogElementsExample, DialogElementsExampleDialog } from './components/10_dialog/04_dialog-elements-example/dialog-elements-example';
 import { DialogFromMenuExample, DialogFromMenuExampleDialog } from './components/10_dialog/05_dialog-from-menu-example/dialog-from-menu-example';
 import { DialogOverviewExample, DialogOverviewExampleDialog } from './components/10_dialog/06_dialog-overview-example/dialog-overview-example';
+import { DividerOverviewExample } from './components/11_devider/divider-overview-example';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,7 @@ import { DialogOverviewExample, DialogOverviewExampleDialog } from './components
     DatepickerOverviewExample,DialogAnimationsExample,DialogContentExample,DialogContentExampleDialog,
     DialogDataExample,DialogDataExampleDialog,DialogElementsExample,DialogElementsExampleDialog,
     DialogFromMenuExample,DialogFromMenuExampleDialog,DialogOverviewExample,DialogOverviewExampleDialog,
-    
+    DividerOverviewExample,    
   ],
   imports: [
     BrowserModule,FormsModule,ReactiveFormsModule,MyMaterialModule,BrowserAnimationsModule
