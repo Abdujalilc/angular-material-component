@@ -12,12 +12,17 @@ import { AutocompleteOptgroupExample } from './components/01_autocomplete/04_aut
 import { AutocompleteOverviewExample } from './components/01_autocomplete/05_autocomplete-overview-example/autocomplete-overview-example';
 import { BadgeOverviewExample } from './components/02_badge/badge-overview-example';
 import { BottomSheetOverviewExample, BottomSheetOverviewExampleSheet } from './components/03_bottom-sheet/bottom-sheet-overview-example';
+import { ButtonOverviewExample } from './components/04_button/button-overview-example';
+import { ButtonToggleModeExample } from './components/05_button-toggle/button-toggle-mode-example';
+import { CardMediaSizeExample } from './components/06_card/card-media-size-example';
+import { CheckboxOverviewExample } from './components/07_checkbox/checkbox-overview-example';
 
 @NgModule({
   declarations: [
     AppComponent,AutocompleteAutoActiveFirstOptionExample,AutocompleteDisplayExample,
     AutocompleteFilterExample, AutocompleteOptgroupExample,AutocompleteOverviewExample,
-    BadgeOverviewExample,BottomSheetOverviewExample,BottomSheetOverviewExampleSheet,
+    BadgeOverviewExample,BottomSheetOverviewExample,BottomSheetOverviewExampleSheet,ButtonOverviewExample,
+    ButtonToggleModeExample,CardMediaSizeExample,CheckboxOverviewExample,
   ],
   imports: [
     BrowserModule,FormsModule,ReactiveFormsModule,MyMaterialModule,BrowserAnimationsModule
