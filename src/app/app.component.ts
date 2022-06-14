@@ -7,7 +7,8 @@ import { Component } from '@angular/core';
   //template:`<autocomplete-filter-example></autocomplete-filter-example>`
   //template:`<autocomplete-optgroup-example></autocomplete-optgroup-example>`
   //template:`<autocomplete-overview-example></autocomplete-overview-example>`
-  template:`<badge-overview-example></badge-overview-example>`
+  //template:`<badge-overview-example></badge-overview-example>`
+  template:`<bottom-sheet-overview-example></bottom-sheet-overview-example>`
 })
 export class AppComponent {
   title = 'angular-material-component';
