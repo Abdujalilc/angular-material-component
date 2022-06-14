@@ -33,22 +33,26 @@ import { DialogElementsExample, DialogElementsExampleDialog } from './components
 import { DialogFromMenuExample, DialogFromMenuExampleDialog } from './components/10_dialog/05_dialog-from-menu-example/dialog-from-menu-example';
 import { DialogOverviewExample, DialogOverviewExampleDialog } from './components/10_dialog/06_dialog-overview-example/dialog-overview-example';
 import { DividerOverviewExample } from './components/11_devider/divider-overview-example';
+import { ExpansionExpandCollapseAllExample } from './components/12_expansion-panel/01_expansion-expand-collapse-all-example/expansion-expand-collapse-all-example';
+import { ExpansionOverviewExample } from './components/12_expansion-panel/02_expansion-overview-example/expansion-overview-example';
+import { ExpansionStepsExample } from './components/12_expansion-panel/03_expansion-steps-example/expansion-steps-example';
 
 @NgModule({
   declarations: [
-    AppComponent,AutocompleteAutoActiveFirstOptionExample,AutocompleteDisplayExample,
-    AutocompleteFilterExample, AutocompleteOptgroupExample,AutocompleteOverviewExample,
-    BadgeOverviewExample,BottomSheetOverviewExample,BottomSheetOverviewExampleSheet,ButtonOverviewExample,
-    ButtonToggleModeExample,CardMediaSizeExample,CheckboxOverviewExample,ChipsAutocompleteExample, 
-    ChipsAvatarExample,ChipsDragDropExample,ChipsFormControlExample,ChipsInputExample,ChipsOverviewExample,
-    ChipsStackedExample,DateRangePickerFormsExample,DateRangePickerOverviewExample,
-    DatepickerOverviewExample,DialogAnimationsExample,DialogContentExample,DialogContentExampleDialog,
-    DialogDataExample,DialogDataExampleDialog,DialogElementsExample,DialogElementsExampleDialog,
-    DialogFromMenuExample,DialogFromMenuExampleDialog,DialogOverviewExample,DialogOverviewExampleDialog,
-    DividerOverviewExample,    
+    AppComponent, AutocompleteAutoActiveFirstOptionExample, AutocompleteDisplayExample,
+    AutocompleteFilterExample, AutocompleteOptgroupExample, AutocompleteOverviewExample,
+    BadgeOverviewExample, BottomSheetOverviewExample, BottomSheetOverviewExampleSheet, ButtonOverviewExample,
+    ButtonToggleModeExample, CardMediaSizeExample, CheckboxOverviewExample, ChipsAutocompleteExample,
+    ChipsAvatarExample, ChipsDragDropExample, ChipsFormControlExample, ChipsInputExample, ChipsOverviewExample,
+    ChipsStackedExample, DateRangePickerFormsExample, DateRangePickerOverviewExample,
+    DatepickerOverviewExample, DialogAnimationsExample, DialogContentExample, DialogContentExampleDialog,
+    DialogDataExample, DialogDataExampleDialog, DialogElementsExample, DialogElementsExampleDialog,
+    DialogFromMenuExample, DialogFromMenuExampleDialog, DialogOverviewExample, DialogOverviewExampleDialog,
+    DividerOverviewExample, ExpansionExpandCollapseAllExample,ExpansionOverviewExample,ExpansionStepsExample,
+    
   ],
   imports: [
-    BrowserModule,FormsModule,ReactiveFormsModule,MyMaterialModule,BrowserAnimationsModule
+    BrowserModule, FormsModule, ReactiveFormsModule, MyMaterialModule, BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

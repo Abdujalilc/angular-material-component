@@ -6,6 +6,7 @@
 indigo-pink.css
 pink-bluegrey.css
 purple-green.css*/
+@import "https://fonts.googleapis.com/icon?family=Material+Icons";
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; background-color: rgb(32, 87, 87);}

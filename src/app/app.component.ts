@@ -28,7 +28,10 @@ import { Component } from '@angular/core';
   //template: `<dialog-data-example></dialog-data-example>`
   //template:`<dialog-elements-example></dialog-elements-example>`
   //template: `<dialog-overview-example></dialog-overview-example>`
-  template: `<divider-overview-example></divider-overview-example>`
+  //template: `<divider-overview-example></divider-overview-example>`
+  //template:`<expansion-expand-collapse-all-example></expansion-expand-collapse-all-example>`
+  //template: `<expansion-overview-example></expansion-overview-example>`
+  template: `<expansion-steps-example></expansion-steps-example>`
 })
 export class AppComponent {
   title = 'angular-material-component';
