@@ -45,6 +45,10 @@ import { FormFieldLabelExample } from './components/13_FormField/05_form-field-l
 import { FormFieldOverviewExample } from './components/13_FormField/06_form-field-overview-example/form-field-overview-example';
 import { FormFieldPrefixSuffixExample } from './components/13_FormField/07_form-field-prefix-suffix-example/form-field-prefix-suffix-example';
 import { FormFieldThemingExample } from './components/13_FormField/08_form-field-theming-example/form-field-theming-example';
+import { GridListDynamicExample } from './components/14_GridList/01_grid-list-dynamic-example/grid-list-dynamic-example';
+import { GridListOverviewExample } from './components/14_GridList/02_grid-list-overview-example/grid-list-overview-example';
+import { IconOverviewExample } from './components/15_Icons/01_icon-overview-example/icon-overview-example';
+import { IconSvgExample } from './components/15_Icons/02_icon-svg-example/icon-svg-example';
 
 @NgModule({
   declarations: [
@@ -60,6 +64,7 @@ import { FormFieldThemingExample } from './components/13_FormField/08_form-field
     DividerOverviewExample, ExpansionExpandCollapseAllExample,ExpansionOverviewExample,ExpansionStepsExample,
     FormFieldAppearanceExample, MyTelInput,   FormFieldCustomControlExample,FormFieldErrorExample,FormFieldHintExample,
     FormFieldLabelExample,FormFieldOverviewExample,FormFieldPrefixSuffixExample,FormFieldThemingExample,
+    GridListDynamicExample,GridListOverviewExample,IconOverviewExample,IconSvgExample,
     
   ],
   imports: [

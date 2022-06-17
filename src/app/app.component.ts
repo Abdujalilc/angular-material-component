@@ -39,7 +39,11 @@ import { Component } from '@angular/core';
   //template:`<form-field-label-example></form-field-label-example>`
   //template:`<form-field-overview-example></form-field-overview-example>`
   //template:`<form-field-prefix-suffix-example></form-field-prefix-suffix-example>`
-  template: `<form-field-theming-example></form-field-theming-example>`
+  //template: `<form-field-theming-example></form-field-theming-example>`
+  //template:`<grid-list-dynamic-example></grid-list-dynamic-example>`  
+  //template: `<grid-list-overview-example></grid-list-overview-example>`
+  //template:`<icon-overview-example></icon-overview-example>`
+  template:`<icon-svg-example></icon-svg-example>`
 })
 export class AppComponent {
   title = 'angular-material-component';
