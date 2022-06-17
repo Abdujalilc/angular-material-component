@@ -31,7 +31,15 @@ import { Component } from '@angular/core';
   //template: `<divider-overview-example></divider-overview-example>`
   //template:`<expansion-expand-collapse-all-example></expansion-expand-collapse-all-example>`
   //template: `<expansion-overview-example></expansion-overview-example>`
-  template: `<expansion-steps-example></expansion-steps-example>`
+  //template: `<expansion-steps-example></expansion-steps-example>`
+  //template:`<form-field-appearance-example></form-field-appearance-example>`
+  //template: `<form-field-custom-control-example></form-field-custom-control-example>`
+  //template:`<form-field-error-example></form-field-error-example>`
+  //template: `<form-field-hint-example></form-field-hint-example>`
+  //template:`<form-field-label-example></form-field-label-example>`
+  //template:`<form-field-overview-example></form-field-overview-example>`
+  //template:`<form-field-prefix-suffix-example></form-field-prefix-suffix-example>`
+  template: `<form-field-theming-example></form-field-theming-example>`
 })
 export class AppComponent {
   title = 'angular-material-component';

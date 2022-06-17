@@ -36,6 +36,15 @@ import { DividerOverviewExample } from './components/11_devider/divider-overview
 import { ExpansionExpandCollapseAllExample } from './components/12_expansion-panel/01_expansion-expand-collapse-all-example/expansion-expand-collapse-all-example';
 import { ExpansionOverviewExample } from './components/12_expansion-panel/02_expansion-overview-example/expansion-overview-example';
 import { ExpansionStepsExample } from './components/12_expansion-panel/03_expansion-steps-example/expansion-steps-example';
+import { FormFieldAppearanceExample } from './components/13_FormField/01_form-field-appearance-example/form-field-appearance-example';
+import { MyTelInput } from './components/13_FormField/02_form-field-custom-control-example/example-tel-input-component';
+import { FormFieldCustomControlExample } from './components/13_FormField/02_form-field-custom-control-example/form-field-custom-control-example';
+import { FormFieldErrorExample } from './components/13_FormField/03_form-field-error-example/form-field-error-example';
+import { FormFieldHintExample } from './components/13_FormField/04_form-field-hint-example/form-field-hint-example';
+import { FormFieldLabelExample } from './components/13_FormField/05_form-field-label-example/form-field-label-example';
+import { FormFieldOverviewExample } from './components/13_FormField/06_form-field-overview-example/form-field-overview-example';
+import { FormFieldPrefixSuffixExample } from './components/13_FormField/07_form-field-prefix-suffix-example/form-field-prefix-suffix-example';
+import { FormFieldThemingExample } from './components/13_FormField/08_form-field-theming-example/form-field-theming-example';
 
 @NgModule({
   declarations: [
@@ -49,6 +58,8 @@ import { ExpansionStepsExample } from './components/12_expansion-panel/03_expans
     DialogDataExample, DialogDataExampleDialog, DialogElementsExample, DialogElementsExampleDialog,
     DialogFromMenuExample, DialogFromMenuExampleDialog, DialogOverviewExample, DialogOverviewExampleDialog,
     DividerOverviewExample, ExpansionExpandCollapseAllExample,ExpansionOverviewExample,ExpansionStepsExample,
+    FormFieldAppearanceExample, MyTelInput,   FormFieldCustomControlExample,FormFieldErrorExample,FormFieldHintExample,
+    FormFieldLabelExample,FormFieldOverviewExample,FormFieldPrefixSuffixExample,FormFieldThemingExample,
     
   ],
   imports: [
