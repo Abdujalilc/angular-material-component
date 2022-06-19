@@ -43,7 +43,12 @@ import { Component } from '@angular/core';
   //template:`<grid-list-dynamic-example></grid-list-dynamic-example>`  
   //template: `<grid-list-overview-example></grid-list-overview-example>`
   //template:`<icon-overview-example></icon-overview-example>`
-  template:`<icon-svg-example></icon-svg-example>`
+  //template:`<icon-svg-example></icon-svg-example>`
+  //template:`<input-clearable-example></input-clearable-example>`
+  //template:`<input-error-state-matcher-example></input-error-state-matcher-example>`
+  //template:`<input-errors-example></input-errors-example>`
+  //template:`<input-form-example></input-form-example>`
+  template:`<input-hint-example></input-hint-example>`
 })
 export class AppComponent {
   title = 'angular-material-component';

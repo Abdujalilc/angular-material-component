@@ -49,6 +49,11 @@ import { GridListDynamicExample } from './components/14_GridList/01_grid-list-dy
 import { GridListOverviewExample } from './components/14_GridList/02_grid-list-overview-example/grid-list-overview-example';
 import { IconOverviewExample } from './components/15_Icons/01_icon-overview-example/icon-overview-example';
 import { IconSvgExample } from './components/15_Icons/02_icon-svg-example/icon-svg-example';
+import { InputClearableExample } from './components/16_Input/01_input-clearable-example/input-clearable-example';
+import { InputErrorStateMatcherExample } from './components/16_Input/02_input-error-state-matcher-example/input-error-state-matcher-example';
+import { InputErrorsExample } from './components/16_Input/03_input-errors-example/input-errors-example';
+import { InputFormExample } from './components/16_Input/04_input-form-example/input-form-example';
+import { InputHintExample } from './components/16_Input/05_input-hint-example/input-hint-example';
 
 @NgModule({
   declarations: [
@@ -65,6 +70,8 @@ import { IconSvgExample } from './components/15_Icons/02_icon-svg-example/icon-s
     FormFieldAppearanceExample, MyTelInput,   FormFieldCustomControlExample,FormFieldErrorExample,FormFieldHintExample,
     FormFieldLabelExample,FormFieldOverviewExample,FormFieldPrefixSuffixExample,FormFieldThemingExample,
     GridListDynamicExample,GridListOverviewExample,IconOverviewExample,IconSvgExample,
+    InputClearableExample,InputErrorStateMatcherExample,InputErrorsExample,InputFormExample,
+    InputHintExample,
     
   ],
   imports: [
