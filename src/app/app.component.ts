@@ -48,7 +48,13 @@ import { Component } from '@angular/core';
   //template:`<input-error-state-matcher-example></input-error-state-matcher-example>`
   //template:`<input-errors-example></input-errors-example>`
   //template:`<input-form-example></input-form-example>`
-  template:`<input-hint-example></input-hint-example>`
+  //template:`<input-hint-example></input-hint-example>`
+  //template:`<input-overview-example></input-overview-example>`
+  //template:`<input-prefix-suffix-example></input-prefix-suffix-example>`
+  //template:`<list-overview-example></list-overview-example>`
+  //template:`<list-sections-example></list-sections-example>`
+  //template:`<list-selection-example></list-selection-example>`
+  template:`<list-single-selection-example></list-single-selection-example>`
 })
 export class AppComponent {
   title = 'angular-material-component';

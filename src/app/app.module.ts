@@ -54,6 +54,12 @@ import { InputErrorStateMatcherExample } from './components/16_Input/02_input-er
 import { InputErrorsExample } from './components/16_Input/03_input-errors-example/input-errors-example';
 import { InputFormExample } from './components/16_Input/04_input-form-example/input-form-example';
 import { InputHintExample } from './components/16_Input/05_input-hint-example/input-hint-example';
+import { InputOverviewExample } from './components/16_Input/06_input-overview-example/input-overview-example';
+import { InputPrefixSuffixExample } from './components/16_Input/07_input-prefix-suffix-example/input-prefix-suffix-example';
+import { ListOverviewExample } from './components/17_list/01_list-overview-example/list-overview-example';
+import { ListSectionsExample } from './components/17_list/02_list-sections-example/list-sections-example';
+import { ListSelectionExample } from './components/17_list/03_list-selection-example/list-selection-example';
+import { ListSingleSelectionExample } from './components/17_list/04_list-single-selection-example/list-single-selection-example';
 
 @NgModule({
   declarations: [
@@ -71,8 +77,8 @@ import { InputHintExample } from './components/16_Input/05_input-hint-example/in
     FormFieldLabelExample,FormFieldOverviewExample,FormFieldPrefixSuffixExample,FormFieldThemingExample,
     GridListDynamicExample,GridListOverviewExample,IconOverviewExample,IconSvgExample,
     InputClearableExample,InputErrorStateMatcherExample,InputErrorsExample,InputFormExample,
-    InputHintExample,
-    
+    InputHintExample,InputOverviewExample,InputPrefixSuffixExample,ListOverviewExample,
+    ListSectionsExample,ListSelectionExample,ListSingleSelectionExample,
   ],
   imports: [
     BrowserModule, FormsModule, ReactiveFormsModule, MyMaterialModule, BrowserAnimationsModule
