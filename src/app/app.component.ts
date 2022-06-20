@@ -60,7 +60,10 @@ import { Component } from '@angular/core';
   //template:`<menu-position-example></menu-position-example>`
   //template:`<paginator-configurable-example></paginator-configurable-example>`
   //template:`<paginator-intl-example></paginator-intl-example>`
-  template:`<paginator-overview-example></paginator-overview-example>`
+  //template:`<paginator-overview-example></paginator-overview-example>`
+  //template:`<progress-bar-buffer-example></progress-bar-buffer-example>`
+  //template:`<progress-bar-configurable-example></progress-bar-configurable-example>`
+  template:`<progress-bar-determinate-example></progress-bar-determinate-example>`
 })
 export class AppComponent {
   title = 'angular-material-component';

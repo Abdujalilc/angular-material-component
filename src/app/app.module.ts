@@ -67,6 +67,9 @@ import { MenuPositionExample } from './components/18_menu/04_menu-position-examp
 import { PaginatorConfigurableExample } from './components/19_paginator/01_paginator-configurable-example/paginator-configurable-example';
 import { PaginatorIntlExample } from './components/19_paginator/02_paginator-intl-example/paginator-intl-example';
 import { PaginatorOverviewExample } from './components/19_paginator/03_paginator-overview-example/paginator-overview-example';
+import { ProgressBarBufferExample } from './components/20_progress-bar/01_progress-bar-buffer-example/progress-bar-buffer-example';
+import { ProgressBarConfigurableExample } from './components/20_progress-bar/02_progress-bar-configurable-example/progress-bar-configurable-example';
+import { ProgressBarDeterminateExample } from './components/20_progress-bar/03_progress-bar-determinate-example/progress-bar-determinate-example';
 
 
 @NgModule({
@@ -80,18 +83,19 @@ import { PaginatorOverviewExample } from './components/19_paginator/03_paginator
     DatepickerOverviewExample, DialogAnimationsExample, DialogContentExample, DialogContentExampleDialog,
     DialogDataExample, DialogDataExampleDialog, DialogElementsExample, DialogElementsExampleDialog,
     DialogFromMenuExample, DialogFromMenuExampleDialog, DialogOverviewExample, DialogOverviewExampleDialog,
-    DividerOverviewExample, ExpansionExpandCollapseAllExample,ExpansionOverviewExample,ExpansionStepsExample,
-    FormFieldAppearanceExample, MyTelInput,   FormFieldCustomControlExample,FormFieldErrorExample,FormFieldHintExample,
-    FormFieldLabelExample,FormFieldOverviewExample,FormFieldPrefixSuffixExample,FormFieldThemingExample,
-    GridListDynamicExample,GridListOverviewExample,IconOverviewExample,IconSvgExample,
-    InputClearableExample,InputErrorStateMatcherExample,InputErrorsExample,InputFormExample,
-    InputHintExample,InputOverviewExample,InputPrefixSuffixExample,ListOverviewExample,
-    ListSectionsExample,ListSelectionExample,ListSingleSelectionExample,MenuIconsExample,
-    MenuNestedExample,MenuOverviewExample,MenuPositionExample,PaginatorConfigurableExample, 
-    PaginatorIntlExample, PaginatorOverviewExample  
+    DividerOverviewExample, ExpansionExpandCollapseAllExample, ExpansionOverviewExample, ExpansionStepsExample,
+    FormFieldAppearanceExample, MyTelInput, FormFieldCustomControlExample, FormFieldErrorExample, FormFieldHintExample,
+    FormFieldLabelExample, FormFieldOverviewExample, FormFieldPrefixSuffixExample, FormFieldThemingExample,
+    GridListDynamicExample, GridListOverviewExample, IconOverviewExample, IconSvgExample,
+    InputClearableExample, InputErrorStateMatcherExample, InputErrorsExample, InputFormExample,
+    InputHintExample, InputOverviewExample, InputPrefixSuffixExample, ListOverviewExample,
+    ListSectionsExample, ListSelectionExample, ListSingleSelectionExample, MenuIconsExample,
+    MenuNestedExample, MenuOverviewExample, MenuPositionExample, PaginatorConfigurableExample,
+    PaginatorIntlExample, PaginatorOverviewExample, ProgressBarBufferExample,ProgressBarConfigurableExample,
+    ProgressBarDeterminateExample,
   ],
   imports: [
-    BrowserModule, FormsModule, ReactiveFormsModule, MyMaterialModule, BrowserAnimationsModule,    
+    BrowserModule, FormsModule, ReactiveFormsModule, MyMaterialModule, BrowserAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
