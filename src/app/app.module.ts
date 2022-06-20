@@ -60,6 +60,10 @@ import { ListOverviewExample } from './components/17_list/01_list-overview-examp
 import { ListSectionsExample } from './components/17_list/02_list-sections-example/list-sections-example';
 import { ListSelectionExample } from './components/17_list/03_list-selection-example/list-selection-example';
 import { ListSingleSelectionExample } from './components/17_list/04_list-single-selection-example/list-single-selection-example';
+import { MenuIconsExample } from './components/18_menu/01_menu-icons-example/menu-icons-example';
+import { MenuNestedExample } from './components/18_menu/02_menu-nested-example/menu-nested-example';
+import { MenuOverviewExample } from './components/18_menu/03_menu-overview-example/menu-overview-example';
+import { MenuPositionExample } from './components/18_menu/04_menu-position-example/menu-position-example';
 
 @NgModule({
   declarations: [
@@ -78,7 +82,8 @@ import { ListSingleSelectionExample } from './components/17_list/04_list-single-
     GridListDynamicExample,GridListOverviewExample,IconOverviewExample,IconSvgExample,
     InputClearableExample,InputErrorStateMatcherExample,InputErrorsExample,InputFormExample,
     InputHintExample,InputOverviewExample,InputPrefixSuffixExample,ListOverviewExample,
-    ListSectionsExample,ListSelectionExample,ListSingleSelectionExample,
+    ListSectionsExample,ListSelectionExample,ListSingleSelectionExample,MenuIconsExample,
+    MenuNestedExample,MenuOverviewExample,MenuPositionExample,
   ],
   imports: [
     BrowserModule, FormsModule, ReactiveFormsModule, MyMaterialModule, BrowserAnimationsModule
