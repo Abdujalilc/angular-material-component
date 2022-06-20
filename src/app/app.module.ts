@@ -70,6 +70,7 @@ import { PaginatorOverviewExample } from './components/19_paginator/03_paginator
 import { ProgressBarBufferExample } from './components/20_progress-bar/01_progress-bar-buffer-example/progress-bar-buffer-example';
 import { ProgressBarConfigurableExample } from './components/20_progress-bar/02_progress-bar-configurable-example/progress-bar-configurable-example';
 import { ProgressBarDeterminateExample } from './components/20_progress-bar/03_progress-bar-determinate-example/progress-bar-determinate-example';
+import { PaginatorIntlExampleModule } from './components/19_paginator/02_paginator-intl-example/paginator-intl-example.module';
 
 
 @NgModule({
@@ -91,11 +92,12 @@ import { ProgressBarDeterminateExample } from './components/20_progress-bar/03_p
     InputHintExample, InputOverviewExample, InputPrefixSuffixExample, ListOverviewExample,
     ListSectionsExample, ListSelectionExample, ListSingleSelectionExample, MenuIconsExample,
     MenuNestedExample, MenuOverviewExample, MenuPositionExample, PaginatorConfigurableExample,
-    PaginatorIntlExample, PaginatorOverviewExample, ProgressBarBufferExample,ProgressBarConfigurableExample,
+    PaginatorOverviewExample, ProgressBarBufferExample,ProgressBarConfigurableExample,
     ProgressBarDeterminateExample,
   ],
   imports: [
     BrowserModule, FormsModule, ReactiveFormsModule, MyMaterialModule, BrowserAnimationsModule,
+    PaginatorIntlExampleModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

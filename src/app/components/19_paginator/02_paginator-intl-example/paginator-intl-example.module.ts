@@ -7,5 +7,6 @@ import { PaginatorIntlExample } from "./paginator-intl-example";
   imports: [MatPaginatorModule],
   declarations: [PaginatorIntlExample],
   providers: [{ provide: MatPaginatorIntl, useClass: MyCustomPaginatorIntl }],
+  exports:[PaginatorIntlExample]
 })
 export class PaginatorIntlExampleModule { }
