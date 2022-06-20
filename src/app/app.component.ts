@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-
 @Component({
   selector: 'app-root',
   //template: `<autocomplete-auto-active-first-option-example></autocomplete-auto-active-first-option-example>`,
@@ -58,7 +57,10 @@ import { Component } from '@angular/core';
   //template: `<menu-icons-example></menu-icons-example>`
   //template: `<menu-nested-example></menu-nested-example>`
   //template:`<menu-overview-example></menu-overview-example>`
-  template:`<menu-position-example></menu-position-example>`
+  //template:`<menu-position-example></menu-position-example>`
+  //template:`<paginator-configurable-example></paginator-configurable-example>`
+  //template:`<paginator-intl-example></paginator-intl-example>`
+  template:`<paginator-overview-example></paginator-overview-example>`
 })
 export class AppComponent {
   title = 'angular-material-component';

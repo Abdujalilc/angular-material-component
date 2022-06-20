@@ -64,6 +64,10 @@ import { MenuIconsExample } from './components/18_menu/01_menu-icons-example/men
 import { MenuNestedExample } from './components/18_menu/02_menu-nested-example/menu-nested-example';
 import { MenuOverviewExample } from './components/18_menu/03_menu-overview-example/menu-overview-example';
 import { MenuPositionExample } from './components/18_menu/04_menu-position-example/menu-position-example';
+import { PaginatorConfigurableExample } from './components/19_paginator/01_paginator-configurable-example/paginator-configurable-example';
+import { PaginatorIntlExample } from './components/19_paginator/02_paginator-intl-example/paginator-intl-example';
+import { PaginatorOverviewExample } from './components/19_paginator/03_paginator-overview-example/paginator-overview-example';
+
 
 @NgModule({
   declarations: [
@@ -83,10 +87,11 @@ import { MenuPositionExample } from './components/18_menu/04_menu-position-examp
     InputClearableExample,InputErrorStateMatcherExample,InputErrorsExample,InputFormExample,
     InputHintExample,InputOverviewExample,InputPrefixSuffixExample,ListOverviewExample,
     ListSectionsExample,ListSelectionExample,ListSingleSelectionExample,MenuIconsExample,
-    MenuNestedExample,MenuOverviewExample,MenuPositionExample,
+    MenuNestedExample,MenuOverviewExample,MenuPositionExample,PaginatorConfigurableExample, 
+    PaginatorIntlExample, PaginatorOverviewExample  
   ],
   imports: [
-    BrowserModule, FormsModule, ReactiveFormsModule, MyMaterialModule, BrowserAnimationsModule
+    BrowserModule, FormsModule, ReactiveFormsModule, MyMaterialModule, BrowserAnimationsModule,    
   ],
   providers: [],
   bootstrap: [AppComponent]
