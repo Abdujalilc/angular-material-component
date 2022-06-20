@@ -71,6 +71,8 @@ import { ProgressBarBufferExample } from './components/20_progress-bar/01_progre
 import { ProgressBarConfigurableExample } from './components/20_progress-bar/02_progress-bar-configurable-example/progress-bar-configurable-example';
 import { ProgressBarDeterminateExample } from './components/20_progress-bar/03_progress-bar-determinate-example/progress-bar-determinate-example';
 import { PaginatorIntlExampleModule } from './components/19_paginator/02_paginator-intl-example/paginator-intl-example.module';
+import { ProgressSpinnerConfigurableExample } from './components/21_progress-spinner/01_progress-spinner-configurable-example/progress-spinner-configurable-example';
+import { ProgressSpinnerOverviewExample } from './components/21_progress-spinner/02_progress-spinner-overview-example/progress-spinner-overview-example';
 
 
 @NgModule({
@@ -93,7 +95,8 @@ import { PaginatorIntlExampleModule } from './components/19_paginator/02_paginat
     ListSectionsExample, ListSelectionExample, ListSingleSelectionExample, MenuIconsExample,
     MenuNestedExample, MenuOverviewExample, MenuPositionExample, PaginatorConfigurableExample,
     PaginatorOverviewExample, ProgressBarBufferExample,ProgressBarConfigurableExample,
-    ProgressBarDeterminateExample,
+    ProgressBarDeterminateExample,ProgressSpinnerConfigurableExample,ProgressSpinnerOverviewExample,
+    
   ],
   imports: [
     BrowserModule, FormsModule, ReactiveFormsModule, MyMaterialModule, BrowserAnimationsModule,

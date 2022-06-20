@@ -59,11 +59,13 @@ import { Component } from '@angular/core';
   //template:`<menu-overview-example></menu-overview-example>`
   //template:`<menu-position-example></menu-position-example>`
   //template:`<paginator-configurable-example></paginator-configurable-example>`
-  template:`<paginator-intl-example></paginator-intl-example>`
+  //template:`<paginator-intl-example></paginator-intl-example>`
   //template:`<paginator-overview-example></paginator-overview-example>`
   //template:`<progress-bar-buffer-example></progress-bar-buffer-example>`
   //template:`<progress-bar-configurable-example></progress-bar-configurable-example>`
   //template:`<progress-bar-determinate-example></progress-bar-determinate-example>`
+  //template:`<progress-spinner-configurable-example></progress-spinner-configurable-example>`
+  template:`<progress-spinner-overview-example></progress-spinner-overview-example>`
 })
 export class AppComponent {
   title = 'angular-material-component';
