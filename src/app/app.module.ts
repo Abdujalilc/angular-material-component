@@ -79,6 +79,12 @@ import { RippleOverviewExample } from './components/23_ripples/ripple-overview-e
 import { SelectCustomTriggerExample } from './components/24_select/01_select-custom-trigger-example/select-custom-trigger-example';
 import { SelectDisabledExample } from './components/24_select/02_select-disabled-example/select-disabled-example';
 import { SelectErrorStateMatcherExample } from './components/24_select/03_select-error-state-matcher-example/select-error-state-matcher-example';
+import { SelectFormExample } from './components/24_select/04_select-form-example/select-form-example';
+import { SelectHintErrorExample } from './components/24_select/05_select-hint-error-example/select-hint-error-example';
+import { SelectInitialValueExample } from './components/24_select/06_select-initial-value-example/select-initial-value-example';
+import { SelectOptgroupExample } from './components/24_select/07_select-optgroup-example/select-optgroup-example';
+import { SelectOverviewExample } from './components/24_select/08_select-overview-example/select-overview-example';
+import { SelectReactiveFormExample } from './components/24_select/09_select-reactive-form-example/select-reactive-form-example';
 
 
 @NgModule({
@@ -100,10 +106,12 @@ import { SelectErrorStateMatcherExample } from './components/24_select/03_select
     InputHintExample, InputOverviewExample, InputPrefixSuffixExample, ListOverviewExample,
     ListSectionsExample, ListSelectionExample, ListSingleSelectionExample, MenuIconsExample,
     MenuNestedExample, MenuOverviewExample, MenuPositionExample, PaginatorConfigurableExample,
-    PaginatorOverviewExample, ProgressBarBufferExample,ProgressBarConfigurableExample,
-    ProgressBarDeterminateExample,ProgressSpinnerConfigurableExample,ProgressSpinnerOverviewExample,
-    RadioNgModelExample,RadioOverviewExample,RippleOverviewExample,SelectCustomTriggerExample,
-    SelectDisabledExample,SelectErrorStateMatcherExample,    
+    PaginatorOverviewExample, ProgressBarBufferExample, ProgressBarConfigurableExample,
+    ProgressBarDeterminateExample, ProgressSpinnerConfigurableExample, ProgressSpinnerOverviewExample,
+    RadioNgModelExample, RadioOverviewExample, RippleOverviewExample, SelectCustomTriggerExample,
+    SelectDisabledExample, SelectErrorStateMatcherExample, SelectFormExample, SelectHintErrorExample,
+    SelectInitialValueExample, SelectOptgroupExample, SelectOverviewExample,SelectReactiveFormExample,
+    
   ],
   imports: [
     BrowserModule, FormsModule, ReactiveFormsModule, MyMaterialModule, BrowserAnimationsModule,

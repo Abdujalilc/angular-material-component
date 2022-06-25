@@ -71,7 +71,13 @@ import { Component } from '@angular/core';
   //template:`<ripple-overview-example></ripple-overview-example>`
   //template:`<select-custom-trigger-example></select-custom-trigger-example>`
   //template:`<select-disabled-example></select-disabled-example>`
-  template:`<select-error-state-matcher-example></select-error-state-matcher-example>`
+  //template:`<select-error-state-matcher-example></select-error-state-matcher-example>`
+  //template:`<select-form-example></select-form-example>`
+  //template:`<select-hint-error-example></select-hint-error-example>`
+  //template:`<select-initial-value-example></select-initial-value-example>`
+  //template:`<select-optgroup-example></select-optgroup-example>`
+  //template:`<select-overview-example></select-overview-example>`
+  template:`<select-reactive-form-example></select-reactive-form-example>`
 })
 export class AppComponent {
   title = 'angular-material-component';
