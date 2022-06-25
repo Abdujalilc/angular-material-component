@@ -65,7 +65,13 @@ import { Component } from '@angular/core';
   //template:`<progress-bar-configurable-example></progress-bar-configurable-example>`
   //template:`<progress-bar-determinate-example></progress-bar-determinate-example>`
   //template:`<progress-spinner-configurable-example></progress-spinner-configurable-example>`
-  template:`<progress-spinner-overview-example></progress-spinner-overview-example>`
+  //template:`<progress-spinner-overview-example></progress-spinner-overview-example>`
+  //template:`<radio-ng-model-example></radio-ng-model-example>`
+  //template:`<radio-overview-example></radio-overview-example>`
+  //template:`<ripple-overview-example></ripple-overview-example>`
+  //template:`<select-custom-trigger-example></select-custom-trigger-example>`
+  //template:`<select-disabled-example></select-disabled-example>`
+  template:`<select-error-state-matcher-example></select-error-state-matcher-example>`
 })
 export class AppComponent {
   title = 'angular-material-component';

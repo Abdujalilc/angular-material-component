@@ -73,6 +73,12 @@ import { ProgressBarDeterminateExample } from './components/20_progress-bar/03_p
 import { PaginatorIntlExampleModule } from './components/19_paginator/02_paginator-intl-example/paginator-intl-example.module';
 import { ProgressSpinnerConfigurableExample } from './components/21_progress-spinner/01_progress-spinner-configurable-example/progress-spinner-configurable-example';
 import { ProgressSpinnerOverviewExample } from './components/21_progress-spinner/02_progress-spinner-overview-example/progress-spinner-overview-example';
+import { RadioNgModelExample } from './components/22_radio-button/01_radio-ng-model-example/radio-ng-model-example';
+import { RadioOverviewExample } from './components/22_radio-button/02_radio-overview-example/radio-overview-example';
+import { RippleOverviewExample } from './components/23_ripples/ripple-overview-example/ripple-overview-example';
+import { SelectCustomTriggerExample } from './components/24_select/01_select-custom-trigger-example/select-custom-trigger-example';
+import { SelectDisabledExample } from './components/24_select/02_select-disabled-example/select-disabled-example';
+import { SelectErrorStateMatcherExample } from './components/24_select/03_select-error-state-matcher-example/select-error-state-matcher-example';
 
 
 @NgModule({
@@ -96,7 +102,8 @@ import { ProgressSpinnerOverviewExample } from './components/21_progress-spinner
     MenuNestedExample, MenuOverviewExample, MenuPositionExample, PaginatorConfigurableExample,
     PaginatorOverviewExample, ProgressBarBufferExample,ProgressBarConfigurableExample,
     ProgressBarDeterminateExample,ProgressSpinnerConfigurableExample,ProgressSpinnerOverviewExample,
-    
+    RadioNgModelExample,RadioOverviewExample,RippleOverviewExample,SelectCustomTriggerExample,
+    SelectDisabledExample,SelectErrorStateMatcherExample,    
   ],
   imports: [
     BrowserModule, FormsModule, ReactiveFormsModule, MyMaterialModule, BrowserAnimationsModule,
