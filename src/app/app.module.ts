@@ -86,6 +86,10 @@ import { SelectOptgroupExample } from './components/24_select/07_select-optgroup
 import { SelectOverviewExample } from './components/24_select/08_select-overview-example/select-overview-example';
 import { SelectReactiveFormExample } from './components/24_select/09_select-reactive-form-example/select-reactive-form-example';
 import { SelectValueBindingExample } from './components/24_select/11_select-value-binding-example/select-value-binding-example';
+import { SidenavAutosizeExample } from './components/25_sidenav/01_sidenav-autosize-example/sidenav-autosize-example';
+import { SidenavBackdropExample } from './components/25_sidenav/02_sidenav-backdrop-example/sidenav-backdrop-example';
+import { SidenavDrawerOverviewExample } from './components/25_sidenav/03_sidenav-drawer-overview-example/sidenav-drawer-overview-example.ts/sidenav-drawer-overview-example';
+import { SelectResetExample } from './components/24_select/10_select-reset-example/select-reset-example';
 
 
 @NgModule({
@@ -112,7 +116,9 @@ import { SelectValueBindingExample } from './components/24_select/11_select-valu
     RadioNgModelExample, RadioOverviewExample, RippleOverviewExample, SelectCustomTriggerExample,
     SelectDisabledExample, SelectErrorStateMatcherExample, SelectFormExample, SelectHintErrorExample,
     SelectInitialValueExample, SelectOptgroupExample, SelectOverviewExample,SelectReactiveFormExample,
-    SelectValueBindingExample,
+    SelectResetExample,SelectValueBindingExample,SidenavAutosizeExample,SidenavBackdropExample,
+    SidenavDrawerOverviewExample,
+    
   ],
   imports: [
     BrowserModule, FormsModule, ReactiveFormsModule, MyMaterialModule, BrowserAnimationsModule,
