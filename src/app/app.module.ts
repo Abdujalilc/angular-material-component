@@ -85,6 +85,7 @@ import { SelectInitialValueExample } from './components/24_select/06_select-init
 import { SelectOptgroupExample } from './components/24_select/07_select-optgroup-example/select-optgroup-example';
 import { SelectOverviewExample } from './components/24_select/08_select-overview-example/select-overview-example';
 import { SelectReactiveFormExample } from './components/24_select/09_select-reactive-form-example/select-reactive-form-example';
+import { SelectValueBindingExample } from './components/24_select/11_select-value-binding-example/select-value-binding-example';
 
 
 @NgModule({
@@ -111,7 +112,7 @@ import { SelectReactiveFormExample } from './components/24_select/09_select-reac
     RadioNgModelExample, RadioOverviewExample, RippleOverviewExample, SelectCustomTriggerExample,
     SelectDisabledExample, SelectErrorStateMatcherExample, SelectFormExample, SelectHintErrorExample,
     SelectInitialValueExample, SelectOptgroupExample, SelectOverviewExample,SelectReactiveFormExample,
-    
+    SelectValueBindingExample,
   ],
   imports: [
     BrowserModule, FormsModule, ReactiveFormsModule, MyMaterialModule, BrowserAnimationsModule,

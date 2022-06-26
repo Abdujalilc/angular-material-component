@@ -77,7 +77,8 @@ import { Component } from '@angular/core';
   //template:`<select-initial-value-example></select-initial-value-example>`
   //template:`<select-optgroup-example></select-optgroup-example>`
   //template:`<select-overview-example></select-overview-example>`
-  template:`<select-reactive-form-example></select-reactive-form-example>`
+  //template:`<select-reactive-form-example></select-reactive-form-example>`
+  template:`<select-value-binding-example></select-value-binding-example>`
 })
 export class AppComponent {
   title = 'angular-material-component';
