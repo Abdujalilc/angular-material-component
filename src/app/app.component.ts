@@ -81,7 +81,10 @@ import { Component } from '@angular/core';
   //template:`<select-value-binding-example></select-value-binding-example>`
   //template:`<sidenav-autosize-example></sidenav-autosize-example>`
   //template:`<sidenav-backdrop-example></sidenav-backdrop-example>`
-  template:`<sidenav-drawer-overview-example></sidenav-drawer-overview-example>`
+  //template:`<sidenav-drawer-overview-example></sidenav-drawer-overview-example>`
+  //template:`<slide-toggle-configurable-example></slide-toggle-configurable-example>`
+  //template:`<slide-toggle-forms-example></slide-toggle-forms-example>`
+  template:`<slide-toggle-overview-example></slide-toggle-overview-example>`
 })
 export class AppComponent {
   title = 'angular-material-component';

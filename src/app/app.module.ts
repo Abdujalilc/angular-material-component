@@ -89,6 +89,9 @@ import { SidenavAutosizeExample } from './components/25_sidenav/01_sidenav-autos
 import { SidenavBackdropExample } from './components/25_sidenav/02_sidenav-backdrop-example/sidenav-backdrop-example';
 import { SidenavDrawerOverviewExample } from './components/25_sidenav/03_sidenav-drawer-overview-example/sidenav-drawer-overview-example.ts/sidenav-drawer-overview-example';
 import { SelectResetExample } from './components/24_select/10_select-reset-example/select-reset-example';
+import { SlideToggleConfigurableExample } from './components/26_slide-toggle/01_slide-toggle-configurable-example/slide-toggle-configurable-example';
+import { SlideToggleFormsExample } from './components/26_slide-toggle/02_slide-toggle-forms-example/slide-toggle-forms-example';
+import { SlideToggleOverviewExample } from './components/26_slide-toggle/03_slide-toggle-overview-example/slide-toggle-overview-example';
 
 
 @NgModule({
@@ -116,7 +119,8 @@ import { SelectResetExample } from './components/24_select/10_select-reset-examp
     SelectDisabledExample, SelectErrorStateMatcherExample, SelectFormExample, SelectHintErrorExample,
     SelectInitialValueExample, SelectOptgroupExample, SelectOverviewExample,SelectReactiveFormExample,
     SelectResetExample,SelectValueBindingExample,SidenavAutosizeExample,SidenavBackdropExample,
-    SidenavDrawerOverviewExample,
+    SidenavDrawerOverviewExample,SlideToggleConfigurableExample,SlideToggleFormsExample,
+    SlideToggleOverviewExample,
     
   ],
   imports: [
