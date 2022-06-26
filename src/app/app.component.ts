@@ -84,7 +84,12 @@ import { Component } from '@angular/core';
   //template:`<sidenav-drawer-overview-example></sidenav-drawer-overview-example>`
   //template:`<slide-toggle-configurable-example></slide-toggle-configurable-example>`
   //template:`<slide-toggle-forms-example></slide-toggle-forms-example>`
-  template:`<slide-toggle-overview-example></slide-toggle-overview-example>`
+  //template:`<slide-toggle-overview-example></slide-toggle-overview-example>`
+  //template:`<slider-configurable-example></slider-configurable-example>`
+  //template:`<slider-overview-example></slider-overview-example>`
+  //template:`<snack-bar-component-example></snack-bar-component-example>`
+  //template:`<snack-bar-overview-example></snack-bar-overview-example>`
+  template:`<snack-bar-position-example></snack-bar-position-example>`
 })
 export class AppComponent {
   title = 'angular-material-component';

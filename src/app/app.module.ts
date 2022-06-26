@@ -92,6 +92,11 @@ import { SelectResetExample } from './components/24_select/10_select-reset-examp
 import { SlideToggleConfigurableExample } from './components/26_slide-toggle/01_slide-toggle-configurable-example/slide-toggle-configurable-example';
 import { SlideToggleFormsExample } from './components/26_slide-toggle/02_slide-toggle-forms-example/slide-toggle-forms-example';
 import { SlideToggleOverviewExample } from './components/26_slide-toggle/03_slide-toggle-overview-example/slide-toggle-overview-example';
+import { SliderConfigurableExample } from './components/27_slider/01_slider-configurable-example/slider-configurable-example';
+import { SliderOverviewExample } from './components/27_slider/02_slider-overview-example/slider-overview-example';
+import { SnackBarComponentExample } from './components/28_snack-bar/01_snack-bar-component-example/snack-bar-component-example';
+import { SnackBarOverviewExample } from './components/28_snack-bar/02_snack-bar-overview-example/snack-bar-overview-example';
+import { SnackBarPositionExample } from './components/28_snack-bar/03_snack-bar-position-example/snack-bar-position-example';
 
 
 @NgModule({
@@ -120,8 +125,8 @@ import { SlideToggleOverviewExample } from './components/26_slide-toggle/03_slid
     SelectInitialValueExample, SelectOptgroupExample, SelectOverviewExample,SelectReactiveFormExample,
     SelectResetExample,SelectValueBindingExample,SidenavAutosizeExample,SidenavBackdropExample,
     SidenavDrawerOverviewExample,SlideToggleConfigurableExample,SlideToggleFormsExample,
-    SlideToggleOverviewExample,
-    
+    SlideToggleOverviewExample,SliderConfigurableExample,SliderOverviewExample,SnackBarComponentExample,
+    SnackBarOverviewExample,SnackBarPositionExample,
   ],
   imports: [
     BrowserModule, FormsModule, ReactiveFormsModule, MyMaterialModule, BrowserAnimationsModule,
