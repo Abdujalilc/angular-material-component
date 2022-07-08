@@ -97,6 +97,7 @@ import { SliderOverviewExample } from './components/27_slider/02_slider-overview
 import { SnackBarComponentExample } from './components/28_snack-bar/01_snack-bar-component-example/snack-bar-component-example';
 import { SnackBarOverviewExample } from './components/28_snack-bar/02_snack-bar-overview-example/snack-bar-overview-example';
 import { SnackBarPositionExample } from './components/28_snack-bar/03_snack-bar-position-example/snack-bar-position-example';
+import { SortOverviewExample } from './components/29_sort-header/sort-overview-example';
 
 
 @NgModule({
@@ -126,7 +127,7 @@ import { SnackBarPositionExample } from './components/28_snack-bar/03_snack-bar-
     SelectResetExample,SelectValueBindingExample,SidenavAutosizeExample,SidenavBackdropExample,
     SidenavDrawerOverviewExample,SlideToggleConfigurableExample,SlideToggleFormsExample,
     SlideToggleOverviewExample,SliderConfigurableExample,SliderOverviewExample,SnackBarComponentExample,
-    SnackBarOverviewExample,SnackBarPositionExample,
+    SnackBarOverviewExample,SnackBarPositionExample,SortOverviewExample
   ],
   imports: [
     BrowserModule, FormsModule, ReactiveFormsModule, MyMaterialModule, BrowserAnimationsModule,
