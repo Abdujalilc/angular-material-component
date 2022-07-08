@@ -33,6 +33,7 @@ import { SlideToggleOverviewExample } from './components/26_slide-toggle/slide-t
 import { SliderOverviewExample } from './components/27_slider/slider-overview-example';
 import { SnackBarOverviewExample } from './components/28_snack-bar/snack-bar-overview-example';
 import { SortOverviewExample } from './components/29_sort-header/sort-overview-example';
+import { StepperOverviewExample } from './components/30_stepper/stepper-overview-example';
 @NgModule({
   declarations: [AppComponent,AutocompleteOverviewExample,BadgeOverviewExample,BottomSheetOverviewExample,
     BottomSheetOverviewExampleSheet,ButtonOverviewExample,ButtonToggleModeExample,CardMediaSizeExample,CheckboxOverviewExample,
@@ -42,9 +43,7 @@ import { SortOverviewExample } from './components/29_sort-header/sort-overview-e
     PaginatorOverviewExample,ProgressBarBufferExample,ProgressSpinnerOverviewExample,
     RadioOverviewExample,RippleOverviewExample,SelectOverviewExample,SidenavDrawerOverviewExample,
     SlideToggleOverviewExample,SliderOverviewExample,SnackBarOverviewExample,SortOverviewExample,
-    
-
-
+    StepperOverviewExample,
   ],
   imports: [
     BrowserModule, FormsModule, ReactiveFormsModule, MyMaterialModule],
