@@ -30,7 +30,10 @@ import { Component } from '@angular/core';
   //template:`<slider-overview-example></slider-overview-example>`
   //template:`<snack-bar-overview-example></snack-bar-overview-example>`
   //template:`<sort-overview-example></sort-overview-example>` 
-  template:`<stepper-overview-example></stepper-overview-example>` 
+  //template:`<stepper-overview-example></stepper-overview-example>` 
+  //template:`<tab-group-align-example></tab-group-align-example>`
+  //template:`<toolbar-overview-example></toolbar-overview-example>`
+  template:`<tooltip-overview-example></tooltip-overview-example>`
 })
 export class AppComponent {
   title = 'angular-material-component';

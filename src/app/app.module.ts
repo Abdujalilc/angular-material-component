@@ -34,6 +34,9 @@ import { SliderOverviewExample } from './components/27_slider/slider-overview-ex
 import { SnackBarOverviewExample } from './components/28_snack-bar/snack-bar-overview-example';
 import { SortOverviewExample } from './components/29_sort-header/sort-overview-example';
 import { StepperOverviewExample } from './components/30_stepper/stepper-overview-example';
+import { TabGroupAlignExample } from './components/31_tab-group-align-example/tab-group-align-example';
+import { ToolbarOverviewExample } from './components/32_toolbar-overview-example/toolbar-overview-example';
+import { TooltipOverviewExample } from './components/33_tooltip-overview-example/tooltip-overview-example';
 @NgModule({
   declarations: [AppComponent,AutocompleteOverviewExample,BadgeOverviewExample,BottomSheetOverviewExample,
     BottomSheetOverviewExampleSheet,ButtonOverviewExample,ButtonToggleModeExample,CardMediaSizeExample,CheckboxOverviewExample,
@@ -43,7 +46,8 @@ import { StepperOverviewExample } from './components/30_stepper/stepper-overview
     PaginatorOverviewExample,ProgressBarBufferExample,ProgressSpinnerOverviewExample,
     RadioOverviewExample,RippleOverviewExample,SelectOverviewExample,SidenavDrawerOverviewExample,
     SlideToggleOverviewExample,SliderOverviewExample,SnackBarOverviewExample,SortOverviewExample,
-    StepperOverviewExample,
+    StepperOverviewExample, TabGroupAlignExample,ToolbarOverviewExample,TooltipOverviewExample
+    
   ],
   imports: [
     BrowserModule, FormsModule, ReactiveFormsModule, MyMaterialModule],
