@@ -33,7 +33,8 @@ import { Component } from '@angular/core';
   //template:`<stepper-overview-example></stepper-overview-example>` 
   //template:`<tab-group-align-example></tab-group-align-example>`
   //template:`<toolbar-overview-example></toolbar-overview-example>`
-  template:`<tooltip-overview-example></tooltip-overview-example>`
+  //template:`<tooltip-overview-example></tooltip-overview-example>`
+  template:`<tree-nested-overview-example></tree-nested-overview-example>`
 })
 export class AppComponent {
   title = 'angular-material-component';

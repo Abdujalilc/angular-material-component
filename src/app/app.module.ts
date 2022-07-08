@@ -37,6 +37,7 @@ import { StepperOverviewExample } from './components/30_stepper/stepper-overview
 import { TabGroupAlignExample } from './components/31_tab-group-align-example/tab-group-align-example';
 import { ToolbarOverviewExample } from './components/32_toolbar-overview-example/toolbar-overview-example';
 import { TooltipOverviewExample } from './components/33_tooltip-overview-example/tooltip-overview-example';
+import { TreeNestedOverviewExample } from './components/34_tree-nested-overview-example/tree-nested-overview-example';
 @NgModule({
   declarations: [AppComponent,AutocompleteOverviewExample,BadgeOverviewExample,BottomSheetOverviewExample,
     BottomSheetOverviewExampleSheet,ButtonOverviewExample,ButtonToggleModeExample,CardMediaSizeExample,CheckboxOverviewExample,
@@ -46,7 +47,8 @@ import { TooltipOverviewExample } from './components/33_tooltip-overview-example
     PaginatorOverviewExample,ProgressBarBufferExample,ProgressSpinnerOverviewExample,
     RadioOverviewExample,RippleOverviewExample,SelectOverviewExample,SidenavDrawerOverviewExample,
     SlideToggleOverviewExample,SliderOverviewExample,SnackBarOverviewExample,SortOverviewExample,
-    StepperOverviewExample, TabGroupAlignExample,ToolbarOverviewExample,TooltipOverviewExample
+    StepperOverviewExample, TabGroupAlignExample,ToolbarOverviewExample,TooltipOverviewExample,
+    TreeNestedOverviewExample,
     
   ],
   imports: [
